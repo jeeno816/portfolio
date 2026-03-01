@@ -24,4 +24,10 @@ class Project(
 
     @OneToMany(mappedBy = "project", fetch = FetchType.LAZY, cascade = [CascadeType.ALL])
     var skills: MutableList<ProjectSkill> = mutableListOf()
+
+    fun addDetails(details: MutableList<ProjectDetail>?) {
+        if (details != null) {
+            this.details.addAll(details)
+        }
+    }
 }
