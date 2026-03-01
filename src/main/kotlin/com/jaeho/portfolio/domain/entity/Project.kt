@@ -30,4 +30,11 @@ class Project(
             this.details.addAll(details)
         }
     }
+
+    fun getEndYearMonth(): String? {
+        if (endYear == null || endMonth == null) {
+            return null
+        }
+        return "${endYear}.${endMonth}"
+    }
 }
