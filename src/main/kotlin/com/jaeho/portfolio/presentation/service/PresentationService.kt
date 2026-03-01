@@ -1,9 +1,9 @@
 package com.jaeho.portfolio.presentation.service
 
-import com.jaeho.portfolio.domain.presentation.dto.IntroductionDTO
-import com.jaeho.portfolio.domain.presentation.dto.LinkDTO
-import com.jaeho.portfolio.domain.presentation.dto.ProjectDTO
-import com.jaeho.portfolio.domain.presentation.dto.ResumeDTO
+import com.jaeho.portfolio.presentation.dto.IntroductionDTO
+import com.jaeho.portfolio.presentation.dto.LinkDTO
+import com.jaeho.portfolio.presentation.dto.ProjectDTO
+import com.jaeho.portfolio.presentation.dto.ResumeDTO
 import com.jaeho.portfolio.presentation.repository.PresentationRepository
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional

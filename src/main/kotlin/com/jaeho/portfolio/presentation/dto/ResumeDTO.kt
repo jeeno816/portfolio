@@ -1,4 +1,4 @@
-package com.jaeho.portfolio.domain.presentation.dto
+package com.jaeho.portfolio.presentation.dto
 
 import com.jaeho.portfolio.domain.entity.Achievement
 import com.jaeho.portfolio.domain.entity.Experience

@@ -1,4 +1,4 @@
-package com.jaeho.portfolio.domain.presentation.dto
+package com.jaeho.portfolio.presentation.dto
 
 data class AchievementDTO(
     val title: String,
