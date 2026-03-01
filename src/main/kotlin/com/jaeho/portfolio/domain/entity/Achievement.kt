@@ -1,17 +1,13 @@
 package com.jaeho.portfolio.domain.entity
 
-import jakarta.persistence.Column
-import jakarta.persistence.Entity
-import jakarta.persistence.GeneratedValue
-import jakarta.persistence.GenerationType
-import jakarta.persistence.Id
+import jakarta.persistence.*
 import java.time.LocalDate
 
 @Entity
 class Achievement(
     var title: String,
     var description: String,
-    var achieveDate: LocalDate?,
+    var achievedDate: LocalDate?,
     var host: String,
     var isActive: Boolean
     ): BaseEntity() {
